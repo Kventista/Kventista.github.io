@@ -3,8 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Ксения Макарова">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
     <title>Regular Expressions</title>
-    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -42,5 +45,6 @@
         </div>
     </main>
 </body>
+<script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 
 </html>
